@@ -3,6 +3,12 @@
 # dependencies
 node_modules/
 
+# Convex generated files
+.convex/
+convex.json
+
+/build
+
 # Expo
 .expo/
 dist/
@@ -37,3 +43,12 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+# vscode
+.vscode/
+
+# env
+.env
+.env.*
+
+*.log
